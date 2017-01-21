@@ -4,14 +4,14 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  productGUID: 6092a5bf7f9b7b24b8d020e154a8948e
+  productGUID: f0410dad3aa7c8643a272f72289c66c1
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Seismic Shift
+  productName: Global Game Jam '17
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21176471, a: 1}
@@ -371,28 +371,21 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols:
-    1: CROSS_PLATFORM_INPUT
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    14: MOBILE_INPUT
-    17: MOBILE_INPUT
-    20: MOBILE_INPUT
-    22: MOBILE_INPUT
+  scriptingDefineSymbols: {}
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Seismic Shift
+  metroPackageName: Global Game Jam '17
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Seismic Shift
+  metroApplicationDescription: Global Game Jam '17
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -461,7 +454,7 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     UNet: 1
-  cloudProjectId: 0754a9b4-6aa9-4b5c-be74-af4c3d87e888
-  projectName: Seismic Shift
-  organizationId: kturchik
+  cloudProjectId: 33477fef-c872-4037-b56c-3b52b254d4e0
+  projectName: Global Game Jam '17
+  organizationId: tjmaya97
   cloudEnabled: 0

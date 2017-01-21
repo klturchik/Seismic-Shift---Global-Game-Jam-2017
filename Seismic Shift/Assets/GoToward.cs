@@ -8,14 +8,11 @@ public class GoToward : MonoBehaviour {
 
     public GameObject dest;
 
-    NavMeshAgent nav;
     CarController car;
-
     bool triggered = false;
 
 	// Use this for initialization
 	void Start () {
-        nav = GetComponent<NavMeshAgent>();
         car = GetComponent<CarController>();
     }
 	
@@ -31,8 +28,6 @@ public class GoToward : MonoBehaviour {
 
     public void Triggered()
     {
-        triggered = true;
-        //nav.SetDestination(dest.transform.position);
-        
+        triggered = true; 
     }
 }

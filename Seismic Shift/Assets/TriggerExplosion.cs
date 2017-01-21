@@ -12,10 +12,19 @@ public class TriggerExplosion : MonoBehaviour {
     {
         if(collider.gameObject.tag == "Player")
         {
-
-            collider.gameObject.GetComponent<Rigidbody>().AddForce((collider.gameObject.transform.position - transform.position - new Vector3(0,15,10)) * power, ForceMode.Impulse);
-            GameObject obj = (GameObject)Instantiate(prefab, transform.position - new Vector3(0, 0, -10), transform.rotation);
-            obj.transform.localScale = new Vector3(5, 5, 5);
+            if(right)
+            {
+                collider.gameObject.GetComponent<Rigidbody>().AddForce((collider.gameObject.transform.position - transform.position - new Vector3(0, 15, 10)) * power, ForceMode.Impulse);
+                GameObject obj = (GameObject)Instantiate(prefab, transform.position - new Vector3(0, 0, -10), transform.rotation);
+                obj.transform.localScale = new Vector3(5, 5, 5);
+            }
+            else
+            {
+                collider.gameObject.GetComponent<Rigidbody>().AddForce((collider.gameObject.transform.position - transform.position - new Vector3(0, 15, -10)) * power, ForceMode.Impulse);
+                GameObject obj = (GameObject)Instantiate(prefab, transform.position + new Vector3(0, 0, -10), transform.rotation);
+                obj.transform.localScale = new Vector3(5, 5, 5);
+            }
+            
             Destroy(gameObject);
         }
     }
